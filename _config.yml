@@ -1,12 +1,11 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+title: Dmytro Naida
+subtitle: Project Manager Games
+email: dima.nayda.1993@gmail.com
+description: I am Project Manager Games at Red Bull Media House. I specialize in producing  Mobile Free2Play and Console titles with a lot of hands-on work involved - data analysis, coding, GDPR, contracts negotiations, etc..
+baseurl: "/forty-jekyll-theme/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Dmytro Naida
-
 city: Salzburg
 country: Austria
 phone: +43 66488340832
