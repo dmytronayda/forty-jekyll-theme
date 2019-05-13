@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Generic
+title: All Posts
 description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+image: assets/images/patrick-tomasso-71909-unsplash.jpg
 nav-menu: true
 ---
 

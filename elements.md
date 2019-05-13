@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Elements
+title: About me
 nav-menu: true
+image: assets/images/about-me.jpg
+description: Lorem ipsum dolor est
 ---
 
 <!-- Main -->
