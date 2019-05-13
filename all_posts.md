@@ -3,7 +3,7 @@ layout: allposts
 title: All posts
 landing-title: 'All posts'
 nav-menu: false
-description: null
+description: 'Here&rsquo;s what on my mind...'
 image: null
 author: null
 show_tile: false

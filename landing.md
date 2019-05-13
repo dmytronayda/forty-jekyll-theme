@@ -1,7 +1,7 @@
 ---
 title: Resume
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+description: 'My background, skills and accomplishments'
 image: assets/images/resume.jpg
 nav-menu: true
 ---
