@@ -12,7 +12,6 @@ nav-menu: true
 		<header class="major">
 			<h1>Elements</h1>
 		</header>
-
 		<!-- Content -->
 		<h2 id="content">Sample Content</h2>
 		<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing
@@ -57,14 +56,11 @@ nav-menu: true
 					accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 			</div>
 		</div>
-
 		<hr class="major" />
-
 		<!-- Elements -->
 		<h2 id="elements">Elements</h2>
 		<div class="row 200%">
 			<div class="6u 12u$(medium)">
-
 				<!-- Text stuff -->
 				<h3>Text</h3>
 				<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is
@@ -80,29 +76,24 @@ nav-menu: true
 				<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer
 					non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem
 					accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-
 				<!-- Lists -->
 				<h3>Lists</h3>
 				<div class="row">
 					<div class="6u 12u$(small)">
-
 						<h4>Unordered</h4>
 						<ul>
 							<li>Dolor etiam magna etiam.</li>
 							<li>Sagittis lorem eleifend.</li>
 							<li>Felis dolore viverra.</li>
 						</ul>
-
 						<h4>Alternate</h4>
 						<ul class="alt">
 							<li>Dolor etiam magna etiam.</li>
 							<li>Sagittis lorem eleifend.</li>
 							<li>Felis feugiat viverra.</li>
 						</ul>
-
 					</div>
 					<div class="6u$ 12u$(small)">
-
 						<h4>Ordered</h4>
 						<ol>
 							<li>Dolor etiam magna etiam.</li>
@@ -112,7 +103,6 @@ nav-menu: true
 							<li>Etiam vel lorem sed viverra.</li>
 							<li>Felis dolore viverra.</li>
 						</ol>
-
 						<h4>Icons</h4>
 						<ul class="icons">
 							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
@@ -129,10 +119,8 @@ nav-menu: true
 							<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a>
 							</li>
 						</ul>
-
 					</div>
 				</div>
-
 				<h4>Definition</h4>
 				<dl>
 					<dt>Item1</dt>
@@ -154,7 +142,6 @@ nav-menu: true
 							praesent. Lorem ipsum dolor.</p>
 					</dd>
 				</dl>
-
 				<h4>Actions</h4>
 				<ul class="actions">
 					<li><a href="#" class="button special">Default</a></li>
@@ -190,17 +177,14 @@ nav-menu: true
 						</ul>
 					</div>
 				</div>
-
 				<!-- Blockquote -->
 				<h3>Blockquote</h3>
 				<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus
 					euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis
 					iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus
 					vestibulum. Blandit adipiscing eu felis.</blockquote>
-
 				<!-- Table -->
 				<h3>Table</h3>
-
 				<h4>Default</h4>
 				<div class="table-wrapper">
 					<table>
@@ -246,7 +230,6 @@ nav-menu: true
 						</tfoot>
 					</table>
 				</div>
-
 				<h4>Alternate</h4>
 				<div class="table-wrapper">
 					<table class="alt">
@@ -292,10 +275,8 @@ nav-menu: true
 						</tfoot>
 					</table>
 				</div>
-
 			</div>
 			<div class="6u$ 12u$(medium)">
-
 				<!-- Buttons -->
 				<h3>Buttons</h3>
 				<ul class="actions">
@@ -328,10 +309,8 @@ nav-menu: true
 					<li><span class="button special disabled">Special</span></li>
 					<li><span class="button disabled">Default</span></li>
 				</ul>
-
 				<!-- Form -->
 				<h3>Form</h3>
-
 				<form method="post" action="#">
 					<div class="row uniform">
 						<div class="6u 12u$(xsmall)">
@@ -388,10 +367,8 @@ nav-menu: true
 						</div>
 					</div>
 				</form>
-
 				<!-- Image -->
 				<h3>Image</h3>
-
 				<h4>Fit</h4>
 				<span class="image fit"><img src="assets/images/about-me.jpg" alt="" /></span>
 				<div class="box alt">
@@ -418,7 +395,6 @@ nav-menu: true
 						</div>
 					</div>
 				</div>
-
 				<h4>Left &amp; Right</h4>
 				<p><span class="image left"><img src="assets/images/pic09.jpg" alt="" /></span>Lorem ipsum dolor sit
 					accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante
@@ -436,7 +412,6 @@ nav-menu: true
 					primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing
 					accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus
 					vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
-
 				<!-- Box -->
 				<h3>Box</h3>
 				<div class="box">
@@ -446,11 +421,9 @@ nav-menu: true
 						vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu
 						felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum.</p>
 				</div>
-
 				<!-- Preformatted Code -->
 				<h3>Preformatted</h3>
 				<pre><code>i = 0;
-
 while (!deck.isInOrder()) {
     print 'Iteration ' + i;
     deck.shuffle();
