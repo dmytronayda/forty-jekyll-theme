@@ -48,4 +48,17 @@
 				transform-origin: bottom right;
 			}
 		}
+
+		.mobile {
+			display: none; 
+		}
+
+		@media only screen and (max-width: 480px) {
+			.mobile {
+				display: flex; 
+			}
+			.desktop {
+				display: none; 
+			}
+		}
 	}
