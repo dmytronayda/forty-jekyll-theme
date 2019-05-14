@@ -349,4 +349,11 @@
 
 	});
 
+	// $(function () {
+	//     $('#expander').on('click', function () {
+	// 		$('#show-more').slideToggle();
+	// 	});
+		
+	// });
+
 })(jQuery);
