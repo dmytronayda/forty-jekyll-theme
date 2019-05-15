@@ -6,60 +6,60 @@
 
 /* Main */
 
-	#main {
-		background-color: _palette(bg-alt);
+#main {
+	background-color: _palette(bg-alt);
 
-		> * {
-			border-top: solid 1px _palette(border);
+	>* {
+		border-top: solid 1px _palette(border);
 
-			&:first-child {
-				border-top: 0;
-			}
-
-			@include inner;
+		&:first-child {
+			border-top: 0;
 		}
 
-		&.alt {
-			background-color: transparent;
-			border-bottom: solid 1px _palette(border);
+		@include inner;
+	}
+
+	&.alt {
+		background-color: transparent;
+		border-bottom: solid 1px _palette(border);
+	}
+
+	#highlighted_link {
+
+		span {
+			position: relative;
 		}
 
-		#highlighted_link {
-
-			span {
-				position: relative;
-			}
-	
-			span::before {
-				content: '';
-				position: absolute;
-				height: 2px;
-				bottom: 0;
-				left: 0;
-				right: 0;
-				background-color: #3cefff;
-				transform-origin: bottom left;
-				transform: scaleX(1);
-				transition: transform 0.3s ease-in-out;
-			}
-	
-			span:hover::before {
-				transform: scaleX(0);
-				transform-origin: bottom right;
-			}
+		span::before {
+			content: '';
+			position: absolute;
+			height: 2px;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: #3cefff;
+			transform-origin: bottom left;
+			transform: scaleX(1);
+			transition: transform 0.3s ease-in-out;
 		}
 
-		.mobile {
-			display: none; 
-		}
-
-		@media only screen and (max-width: 480px) {
-			.mobile {
-				display: flex; 
-			}
-			.desktop {
-				display: none; 
-			}
+		span:hover::before {
+			transform: scaleX(0);
+			transform-origin: bottom right;
 		}
 	}
 
+	.mobile {
+		display: none;
+	}
+
+	@media only screen and (max-width: 480px) {
+		.mobile {
+			display: flex;
+		}
+
+		.desktop {
+			display: none;
+		}
+	}
+}

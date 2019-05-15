@@ -37,17 +37,17 @@
         {% for post in site.posts %}
         {% if post.title != 404 %}
         <!-- Box container for an article-->
-        <header id="highlighted_link">
-          <div class="row">
-
-            <h3>
-              <span>
-                <a href="{{ post.url | remove_first:'/'}}">{{ post.title }}</a>
-              </span>
-            </h3>
+        <header>
+          <div>
             <sub>
               {% if post.date %} {{ post.date | date: '%B %d, %Y'  }}{% endif %}
             </sub>
+            <div class="highlight">
+              <strong class="hvr-sweep-to-top">
+                <a href="{{ post.url | remove_first:'/'}}">{{ post.title }}</a>
+              </strong>
+            </div>
+
 
           </div>
 
@@ -72,53 +72,53 @@
               </thead>
               <tbody>
                 <tr>
-                  <td><strike>1</strike></td>
+                  <td><i class="fa fa-check-square"></i></td>
                   <td><strike>Deutsch A1</strike> </td>
                   <td>DE</td>
-                  <td>May, 2019</td>
+                  <td>May, '19</td>
                 </tr>
                 <tr>
-                  <td><strike>1</strike></td>
+                  <td><i class="fa fa-check-square"></i></td>
                   <td><strike>Make personal website using Jekyll</strike>
                   </td>
                   <td>Web</td>
-                  <td>May, 2019</td>
+                  <td>May, '19</td>
                 </tr>
                 <tr>
-                  <td>1</td>
+                  <td><i class="fa fa-square"></i></td>
                   <td>How to Code: Simple Data</td>
                   <td>CS 101</td>
-                  <td>Jul, 2019</td>
+                  <td>Jul, '19</td>
                 </tr>
                 <tr>
-                  <td>2</td>
+                  <td><i class="fa fa-square"></i></td>
                   <td>How to Code: Complex Data</td>
                   <td>CS 101</td>
                   <td>-</td>
                 </tr>
                 <tr>
-                  <td>3</td>
+                  <td><i class="fa fa-square"></i></td>
                   <td> Software Construction - Data Abstraction</td>
                   <td>CS 101</td>
                   <td>-</td>
                 </tr>
                 <tr>
-                  <td>4</td>
+                  <td><i class="fa fa-square"></i></td>
                   <td>Software Construction - Object-Oriented Design</td>
                   <td>CS 101</td>
                   <td>-</td>
                 </tr>
                 <tr>
-                  <td>5</td>
+                  <td><i class="fa fa-square"></i></td>
                   <td>Programming Languages, Part A</td>
                   <td>CS 101</td>
                   <td>-</td>
                 </tr>
                 <tr>
-                  <td>6</td>
+                  <td><i class="fa fa-square"></i></td>
                   <td>Deutsch A2</td>
                   <td>DE</td>
-                  <td>Oct, 2019</td>
+                  <td>Oct, '19</td>
                 </tr>
               </tbody>
             </table>

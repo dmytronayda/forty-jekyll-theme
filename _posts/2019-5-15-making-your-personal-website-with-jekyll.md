@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Making your personal website with Jekyll
+title: Making a personal website with Jekyll
 description: Feugiat amet tempus
 image: assets/images/pic06.jpg
 ---
