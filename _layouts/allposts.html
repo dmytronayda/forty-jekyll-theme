@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %} 
-    
-    <section id="banner" class="style2">
-      <div class="inner">
-          <span class="image">
-              <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
-          </span>
-          <header class="major">
+  {% include header.html %}
 
-              <h1>{{ page.title }}</h1>
+  <section id="banner" class="style2">
+    <div class="inner">
+      <span class="image">
+        <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+      </span>
+      <header class="major">
 
-          </header>
-          <div class="content">
+        <h1>{{ page.title }}</h1>
 
-              <p style="text-transform: uppercase;">There's a lot I want to learn, and some stuff I know already. Here's where I list both.</p>
+      </header>
+      <div class="content">
 
-          </div>
+        <p style="text-transform: uppercase;">There's a lot I want to learn, and some stuff I know already. Here's where
+          I list both.</p>
+
       </div>
+    </div>
   </section>
 
   <!-- Main -->
@@ -31,10 +32,10 @@
     <!-- Blog section -->
     <section id="one">
       <div class="inner" id="blog">
+        <h2>Learned</h2>
         <!-- Content -->
         {% for post in site.posts %}
         {% if post.title != 404 %}
-
         <!-- Box container for an article-->
         <header id="highlighted_link">
           <div class="row">
@@ -45,21 +46,93 @@
               </span>
             </h3>
             <sub>
-                {% if post.date %} {{ post.date | date: '%B %d, %Y'  }}{% endif %}
+              {% if post.date %} {{ post.date | date: '%B %d, %Y'  }}{% endif %}
             </sub>
-      
+
           </div>
+
         </header>
         {% endif%}
         {% endfor %}
 
+        <hr>
+        <div class="to-learn">
+          <h2>To Learn</h2>
+          <p>My current focus is <b>Computer Science</b> fundamentals, all things for <b>Game Production</b> and comfort
+            life in <b>Austria</b></p>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Description</th>
+                  <th>Tag</th>
+                  <th>Complete by</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strike>1</strike></td>
+                  <td><strike>Deutsch A1</strike> </td>
+                  <td>DE</td>
+                  <td>May, 2019</td>
+                </tr>
+                <tr>
+                  <td><strike>1</strike></td>
+                  <td><strike>Make personal website using Jekyll</strike>
+                  </td>
+                  <td>Web</td>
+                  <td>May, 2019</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>How to Code: Simple Data</td>
+                  <td>CS 101</td>
+                  <td>Jul, 2019</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>How to Code: Complex Data</td>
+                  <td>CS 101</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td> Software Construction - Data Abstraction</td>
+                  <td>CS 101</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Software Construction - Object-Oriented Design</td>
+                  <td>CS 101</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Programming Languages, Part A</td>
+                  <td>CS 101</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Deutsch A2</td>
+                  <td>DE</td>
+                  <td>Oct, 2019</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
       </div>
     </section>
 
+
   </div>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-  </body>
+</body>
 
 </html>
