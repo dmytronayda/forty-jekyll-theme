@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-    Forty by HTML5 UP
-    html5up.net | @ajlkn
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-  -->
 <html>
 
   {% include head.html %}
@@ -12,15 +7,32 @@
 
     {% include header.html %} 
     
-    
+    <section id="banner" class="style2">
+      <div class="inner">
+          <span class="image">
+              <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+          </span>
+          <header class="major">
+
+              <h1>{{ page.title }}</h1>
+
+          </header>
+          <div class="content">
+
+              <p style="text-transform: uppercase;">I write about what I know and share it with the world.</p>
+
+
+          </div>
+      </div>
+  </section>
+
   <!-- Main -->
   <div id="main" class="alt">
 
-    <!-- One -->
+    <!-- Blog section -->
     <section id="one">
       <div class="inner" id="blog">
         <!-- Content -->
-        <h1 id="content">Here's what on my mind...</h1>
         {% for post in site.posts %}
         {% if post.title != 404 %}
 
