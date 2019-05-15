@@ -356,7 +356,7 @@ if ($('.ty-compact-list').length > 2) {
 
 $('.show-more').on('click', function() {
   //toggle elements with class .ty-compact-list that their index is bigger than 2
-  $('.ty-compact-list:gt(1)').toggle();
+  $('.ty-compact-list:gt(1)').slideToggle();
   //change text of show more element just for demonstration purposes to this demo
   $(this).text() === 'Show more' ? $(this).text('Show less') : $(this).text('Show more');
 });
