@@ -39,7 +39,7 @@ For installing Jekyll, I assume you haven't try using terminal in the past and/o
 
     For Mac, press `Cmd + Space` and start typing `terminal`. 
     Then, hit `Enter` to open the command line. 
-    ![image](/assets/images/termina.png)
+    ![image](/blog/assets/images/termina.png)
 2. 
 
 ## Create a custom website running on Jekyll 
