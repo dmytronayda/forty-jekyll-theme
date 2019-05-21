@@ -3,8 +3,8 @@ title: Dmytro Naida
 subtitle: Project Manager Games
 email: dima.nayda.1993@gmail.com
 description: I am Project Manager specializing in producing Mobile Free2Play titles.
-baseurl: "https://www.dmytronaida.com/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.dmytronaida.com/" # the base hostname & protocol for your site
 author: Dmytro Naida
 city: Salzburg
 country: Austria

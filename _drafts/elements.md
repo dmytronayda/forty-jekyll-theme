@@ -2,7 +2,7 @@
 title: Elements
 layout: page
 description: 'Elements'
-image: /blog/assets/images/resume.jpg
+image: /assets/images/resume.jpg
 nav-menu: true
 ---
 
