@@ -8,7 +8,7 @@ description: Feugiat amet tempus
 I've tried to create my personal website several times by now using my somewhat limited knowledge of HTML, CSS, and
 JavaScript.
 
-I actually created a decent [portfolio website](http://www.dmytronaida.com/) right after the completion of the online
+I actually created a decent [portfolio website](https://dmytronayda.github.io/portfolio/) right after the completion of the online
 course Building Websites from Scratch from [Codecademy](https://www.codecademy.com).
 
 I wanted to go one step further and add blog section. That's when I realised that I needed some kind of CMS (Content
