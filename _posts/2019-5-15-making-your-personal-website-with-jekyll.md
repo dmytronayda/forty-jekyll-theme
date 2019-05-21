@@ -37,7 +37,7 @@ __completely FREE__ to host on GitHub pages.
 
     For Mac, press `Cmd + Space` and start typing `terminal`.
     Then, hit `Enter` to open the command line.
-    ![image](/blog/assets/images/termina.png)
+    ![image](/assets/images/termina.png)
 2. **Install Command Line Tools**
 
     Check to see if you have Command Line Tools on your machine already:
@@ -63,7 +63,7 @@ __completely FREE__ to host on GitHub pages.
     * open `nano ~/.bash_profile` from your terminal;
     * and add a new line `export PATH=/usr/local/opt/ruby/bin:$PATH`
 
-    ![add new line nano editor](/blog/assets/images/add_new_line.png)
+    ![add new line nano editor](/assets/images/add_new_line.png)
 
     * Save and close the file
     * `Ctr + O` to save
@@ -98,7 +98,7 @@ __completely FREE__ to host on GitHub pages.
 
 ## Create a custom website running on Jekyll
 
-![Mediumish](/blog/assets/images/jekyll-site-preview.png)
+![Mediumish](/assets/images/jekyll-site-preview.png)
 
 <div style="display: flex; justify-content: center">
     <a class="button" target="_blank" href="https://wowthemesnet.github.io/mediumish-theme-jekyll">
@@ -113,10 +113,10 @@ For the purpose of example I am going to use the Medium-style blog theme **Mediu
 
 1. Log in to your GitHub account and fork Mediumish: [https://github.com/wowthemesnet/mediumish-theme-jekyll/](https://github.com/wowthemesnet/mediumish-theme-jekyll/)
 
-    ![fork-mediumish](/blog/assets/images/fork-mediumish.png)
+    ![fork-mediumish](/assets/images/fork-mediumish.png)
 
 2. Clone a copy of your fork on your machine and open with a text editor of your choice: 
-     ![](/blog/assets/images/clone-a-copy-of-your-fork.png)
+     ![](/assets/images/clone-a-copy-of-your-fork.png)
     
     Or simply use following commands in your terminal if you use VS Code:  
 
@@ -158,11 +158,11 @@ Head to GitHub Pages’ [**setup instructions**](https://pages.github.com/) and 
 
 That's about it. Simply navigate to GitHub repo and click `Settings`: 
 
-![](/blog/assets/images/Screenshot 2019-05-21 at 16.56.30.png)
+![](/assets/images/Screenshot 2019-05-21 at 16.56.30.png)
 
 Within `Settings`, navigate to the `Source` section. From the dropdown menu, select `master` branch and then click `Save`.
 
-![](/blog/assets/images/githubpagessection.png)
+![](/assets/images/githubpagessection.png)
 
 Now, your Jekyll site can be found at `http://<username>.github.io/<repository-name>` 
 
