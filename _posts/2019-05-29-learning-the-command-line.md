@@ -5,7 +5,10 @@ description: Learnings from "Learn Enough Command Line to Be Dangerous" tutorial
 ---
 
 This is a documentation I do to keep myself organized in my stydies. 
+
 Here I am going to write only the things that were new to me, when I was going through the tutorial. 
+Find full tutorial by following this [LINK](https://www.learnenough.com/command-line-tutorial/basics). 
+
 
 <div class="table-wrapper">
 					<table class="alt">
@@ -19,14 +22,17 @@ Here I am going to write only the things that were new to me, when I was going t
 						<tbody>
 							<tr>
 								<td>Learn Enough Command Line to Be Dangerous</td>
-								<td>4</td>
+								<td>3</td>
 								<td>Free</td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
 
+It took me 3 hours total within 2 days to complete this tutorial: 
+![time to complete](/assets/images/time-to-learn-command-line.png)
 
+----------------
 ### Terminal keyboard shortcuts 
 One of the common ways to edit the line is to use Control key (usually `Ctrl` or `⌃`). 
 
@@ -84,5 +90,23 @@ RBM-DNAIDA-A01:commandLineTasks dnaida$ open ./site.html
 RBM-DNAIDA-A01:commandLineTasks dnaida$ 
 ```
 
+* `head` => shows the first 10 lines of the file 
+* `tail` => shows the last 10 lines of the file 
+* `wc` => word, line, and byte count for a given file 
+  
+  ```
+  RBM-DNAIDA-A01:commandLineTasks dnaida$ wc sonnets.txt 
+    2620   17670   95635 sonnets.txt
+  ```
+* `less` => allows backward movement  in the  file  as well as forward movement. 
+  * when, scanning through a file using `less` command: 
+    * `f` for 'forward' one page
+    * `b` for 'back' one page
+    * `/<string>` for searching matching keywords in file
 
-I've ended here: [URL](https://www.learnenough.com/command-line-tutorial/inspecting_files#sec-making_heads_and_tails)
+
+### Working with directories
+
+* `open` => open files and directories with the default program
+* `cd -` => brings you back to the previous directory, whatever it was
+
