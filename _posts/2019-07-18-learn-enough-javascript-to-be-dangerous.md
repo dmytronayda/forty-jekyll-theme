@@ -1,16 +1,26 @@
 ---
-title: Learning Enough JavaScript to be dangerous
+title: Learn Enough JavaScript to be dangerous
 layout: post
-description: 'Course Overview - Learning Enough JavaScript to be dangerous'
+description: 'Learn Enough JavaScript to be dangerous - Course Overview'
 image: /assets/images/resume.jpg
 nav-menu: true
 ---
 
-This is a documentation I do to keep myself organized in my stydies.
+*Learn Enough JavaScript To Be Dangerous* is a course in the series of [Learn Enough Society](https://www.learnenough.com/). 
+Find this particular tutorial by following this [LINK](https://www.learnenough.com/command-line-tutorial/basics).
 
-Here I am going to write only things that were especially useful to me, when I was going through the tutorial and showcase completed exercises.
+What I really liked about this course is that it's provided both as a documentation, which you have to follow, AND supporting videos. 
+That's why, I was trying to follow the 'book' and, if there was a part I could not figure out by myself or seemed too complicated, I would jump to the video. 
 
-Find full tutorial by following this [LINK](https://www.learnenough.com/command-line-tutorial/basics).
+Course comes with the preview -- couple of chapters -- and asks you to purchase 15$/month subsciption to complete it in full. 
+After the completion of this one, I have to say that it actully worth the money. 
+
+By the end of the course, I have gained the full picture of how JavaScript can be used and executed (in-browser, in-terminal(node REPL), from file, etc.). This is still a beginner course, of course, but compering to other online courses I took in the past (e.g. [CodeCademy](https://www.codecademy.com/)), Learn Enough JavaScript to be dangerous tutorial actually game me more in-depth understanding of how JavaScript can be used. 
+
+Also, I have developed and published a working JavaScript-powered gallery. Here's the project on GitHub Pages: [https://dmytronayda.github.io/gallery/](https://dmytronayda.github.io/gallery/)
+
+
+
 
 
 <div class="table-wrapper">
@@ -25,7 +35,7 @@ Find full tutorial by following this [LINK](https://www.learnenough.com/command-
         <tbody>
             <tr>
                 <td>Learn Enough Command Line to Be Dangerous</td>
-                <td>3</td>
+                <td>27</td>
                 <td>15$/month <br>
                 (1 month subscription was enough for me)</td>
             </tr>
@@ -33,8 +43,10 @@ Find full tutorial by following this [LINK](https://www.learnenough.com/command-
     </table>
 </div>
 
-It took me X hours total within 2 days to complete this tutorial:
-![time to complete](image)
+It took me a total of 27 hours over the course of 51 days (includes 3-week vacation in the middle) to complete this tutorial:
+![time to complete](/assets/images/learn-enough-js-hrs.png)
+
+**Please find some of the notes and solutions for the exercises to this course below.**
 
 -------------------------
 ## Chapter 1: Hello, World!
@@ -383,8 +395,5 @@ Solution to exercise 7.3.2
 
 ![solution](/assets/images/solution7.3.2.png)
 
-Stopped [here](https://www.learnenough.com/javascript-tutorial/functional_programming)
-------------------------
-Make sure to add Num of hrs needed for the completion of the tutorial in the end.
 
 
