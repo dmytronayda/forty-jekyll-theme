@@ -19,7 +19,7 @@
       </header>
       <div class="content">
 
-        <p style="text-transform: uppercase;">There's a lot I want to learn, and some stuff I know already. Here's where
+        <p style="text-transform: uppercase;">There's a lot I want to learn, and some stuff I want to share. Here's where
           I list both.</p>
 
       </div>
@@ -32,6 +32,7 @@
     <!-- Blog section -->
     <section id="one">
       <div class="inner" id="blog">
+        <h2>Reviews and how-to's</h2>
         <!-- Content -->
         {% for post in site.posts %}
         {% if post.title != 404 %}
@@ -55,10 +56,76 @@
         {% endfor %}
 
         <hr>
-        <div class="to-learn">
-          <h2>To Learn</h2>
-          <p>My current focus is <b>Computer Science</b> fundamentals, all things for <b>Game Production</b> and comfort
-            life in <b>Austria</b></p>
+        <div class="to-learn" id="toLearn">
+          <h2>To Learn 2019</h2>
+          <p>My current focus is Product analytics, German and Computer Science fundamentials</p>
+          <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Description</th>
+                    <th>Tag / Ref</th>
+                    <th>Evidence</th>
+                    <th>Complete by</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><i class="fa fa-check-square"></i></td>
+                    <td><strike>Deutsch A1</strike> </td>
+                    <td>DE</td>
+                    <td><a
+                        href="https://www.facebook.com/photo.php?fbid=2324065677632815&set=a.708178622554870&type=3&theater">Credential</a>
+                    </td>
+                    <td>May, '19</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fa fa-check-square"></i></td>
+                    <td><strike>Make personal website using Jekyll</strike>
+                    </td>
+                    <td>WebDev</td>
+                    <td><a href="https://www.dmytronaida.com/">www.dmytronaida.com</a></td>
+                    <td>May, '19</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fa fa-check-square"></i></td>
+                    <td><strike>
+                        Learn Enough JavaScript To Be Dangerous
+                      </strike>
+                    </td>
+                    <td> <a
+                        href="https://www.learnenough.com/course/learn_enough_javascript/frontmatter">learnenough.com</a>
+                    </td>
+                    <td>
+                      <a href="https://www.dmytronaida.com/2019/07/18/learn-enough-javascript-to-be-dangerous.html">Course
+                        review</a>
+                      and
+                      <a href="https://dmytronayda.github.io/gallery/">Project</a>
+                    </td>
+                    <td>July, 2019</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fa fa-square"></i></td>
+                    <td>Deutsch A2</td>
+                    <td>DE</td>
+                    <td>-</td>
+                    <td>Oct, '19</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fa fa-square"></i></td>
+                    <td>
+                      <a href="https://gopractice.io/" target="_blank" rel="noopener noreferrer">Data-driven product management | GoPractice</a>
+                    </td>
+                    <td>Product analytics</td>
+                    <td>-</td>
+                    <td>Oct, '19</td>
+                </tbody>
+              </table>
+            </div>
+
+
+          <h2>To Learn 2020</h2>
           <div class="table-wrapper">
             <table>
               <thead>
@@ -71,48 +138,6 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td><i class="fa fa-check-square"></i></td>
-                  <td><strike>Deutsch A1</strike> </td>
-                  <td>DE</td>
-                  <td><a
-                      href="https://www.facebook.com/photo.php?fbid=2324065677632815&set=a.708178622554870&type=3&theater">Credential</a>
-                  </td>
-                  <td>May, '19</td>
-                </tr>
-                <tr>
-                  <td><i class="fa fa-check-square"></i></td>
-                  <td><strike>Make personal website using Jekyll</strike>
-                  </td>
-                  <td>WebDev</td>
-                  <td><a href="https://www.dmytronaida.com/">www.dmytronaida.com</a></td>
-                  <td>May, '19</td>
-                </tr>
-                <tr>
-                  <td><i class="fa fa-check-square"></i></td>
-                  <td><strike>
-                      Learn Enough JavaScript To Be Dangerous
-                    </strike>
-                  </td>
-                  <td> <a
-                      href="https://www.learnenough.com/course/learn_enough_javascript/frontmatter">learnenough.com</a>
-                  </td>
-                  <td>
-                    <a href="https://www.dmytronaida.com/2019/07/18/learn-enough-javascript-to-be-dangerous.html">Course
-                      review</a>
-                    and
-                    <a href="https://dmytronayda.github.io/gallery/">Project</a>
-                  </td>
-                  <td>July, 2019</td>
-                </tr>
-                <tr>
-                  <td><i class="fa fa-square"></i></td>
-                  <td>Deutsch A2</td>
-                  <td>DE</td>
-                  <td>-</td>
-                  <td>Oct, '19</td>
-                </tr>
-                <tr>
                   <td><i class="fa fa-square"></i></td>
                   <td>Introduction to Programming I</td>
                   <td>CS</td>

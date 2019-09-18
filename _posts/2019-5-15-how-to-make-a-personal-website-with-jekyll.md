@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Making a personal website with Jekyll
+title: How to make a personal website with Jekyll
 description: In this article I try to condence everything I've learned about Jekyll and help you create your own website for free.
 ---
 **In this article I try to condence everything I've learned about Jekyll and help you create your own website for free.**
