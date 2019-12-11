@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simulator by GoPractice! - Training Review
+title: GoPractice Simulator! - Training review
 description: Simulator by GoPractice! is the incredible resource to learn about growth and data-driven product management
 ---
 
