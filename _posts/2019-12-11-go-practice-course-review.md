@@ -22,6 +22,7 @@ description: Simulator by GoPractice! is the incredible resource to learn about 
         </tbody>
     </table>
 </div>
+** there was a special price drop for the first 2 weeks after the English version of the course was released, so actual price may differ. 
 **My main goal for this online training was to learn more hands-on skills for game/product analytics so that to better understand and improve our games monetization and user experience.**
 
 ### What got me hooked? 
