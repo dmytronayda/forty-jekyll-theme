@@ -68,8 +68,6 @@ Here's an example of how this worked in Codecademy Intensive on website developm
     ![Google Local Guides](/assets/images/imageGoogleLocalGuides.png)
     
 
-> If you think these hypotheses for improvement don't make sense or, on contrary, might be useful, drop me a line on the email. Would be interesting to hear your opinion. 
-
 ### Summary
 All in all, Simulator by GoPractice! is the incredible resource to learn about growth and data-driven product management. This is a simulator not a typical online course! You write and read emails,  analyse data in Google Sheets or Excel, make research. Besides super valuable course material Simulator provides many extra reading and video suggestions. So you can continue learning more even after finishing online training.  
 
