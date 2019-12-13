@@ -66,9 +66,7 @@ Here's an example of how this worked in Codecademy Intensive on website developm
 2. **Progress e-mails** <br>
     Weekly emails should not be too intrusive. I like contribution reports from Google Maps Local Guides: 
     ![Google Local Guides](/assets/images/imageGoogleLocalGuides.png)
-   
-3. **Community** <br>
-    It feels like learners of such high-quality training should get more knowledge and opportunities sharing. Now the Facebook group is not that active. 
+    
 
 > If you think these hypotheses for improvement don't make sense or, on contrary, might be useful, drop me a line on the email. Would be interesting to hear your opinion. 
 
