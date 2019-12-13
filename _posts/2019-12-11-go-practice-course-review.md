@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GoPractice Simulator! - Training review
+title: GoPractice! Simulator - Training review
 description: Simulator by GoPractice is so good it deserves a review article.
 ---
 Data-driven product management training [Simulator by GoPractice](https://gopractice.io/) is so good it deserves a review article.  
