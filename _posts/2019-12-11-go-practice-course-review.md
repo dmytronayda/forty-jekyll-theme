@@ -3,6 +3,7 @@ layout: post
 title: GoPractice Simulator! - Training review
 description: Simulator by GoPractice! is the incredible resource to learn about growth and data-driven product management
 ---
+Data-driven product management training [Simulator by GoPractice](https://gopractice.io/) is so good it deserves a full review article for it.  
 
 <div class="table-wrapper">
     <table class="alt">
@@ -22,7 +23,7 @@ description: Simulator by GoPractice! is the incredible resource to learn about 
         </tbody>
     </table>
 </div>
-** there was a special price drop for the first 2 weeks after the English version of the course was released, so actual price may differ. 
+** there was a special price drop for the first 2 weeks after the English version of the training was launched, so actual price may differ. 
 
 **My main goal for this online training was to learn more hands-on skills for game/product analytics so that to better understand and improve our games monetization and user experience.**
 
@@ -46,7 +47,7 @@ To be precise, I spent 2 months and 16 days to complete the course. Median learn
 ![time to complete](/assets/images/timeSpentGoPracticeSimulator.png)
 
 
-### What was useful? 
+### What you get? 
 
 1. Tons of hands-on exercises 
    * Guys at GoPractice took phase 'learning by doing' quite seriously. You have to understand the topic you read through and actually do calculations yourself (mainly in Google Spreadsheets)  or *make educated guesses* to access new material. What's even cooler is that you end the course having over 20 ready-to-use and adapt for your own needs Spreadsheets. So, next time you're willing to estimate the audience or LTV of your app/game for the first 100 days when you have data only for first month, you don't have to start from scratch. 
@@ -83,8 +84,9 @@ To be precise, I spent 2 months and 16 days to complete the course. Median learn
 You can obviously say that this deserves a separate product... 🤷‍♂️
 3. Actively reach out to users with their progress to keep them motivated. 
     
-    I think weekly progress e-mail would not be too intrusive. I personally like contribution reports from Google Maps Local Guides: 
-    ![Google Local Guides](/assets/images/googleLocalGuidesMotivation.png)
+    I think weekly progress e-mail would not be too intrusive. <br>
+    I personally like contribution reports from Google Maps Local Guides: 
+    ![Google Local Guides](/assets/images/imageGoogleLocalGuides.png)
    
 4. Facebook learner community is not really active right now. 
 
