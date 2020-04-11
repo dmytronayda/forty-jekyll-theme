@@ -64,7 +64,7 @@ The book itself is quite controversial, but it does indeed deliver the idea of w
 
 ## What Have I Learned So Far? 
 
-JS101 tries to teach you basics right from the start. After 80 hours working on the course, I am comfortable with JavaScript [JS] style guidelines, learned a lot about different between different data types and especially about JS Collections.  
+JS101 tries to teach you basics right from the start. After 80 hours working on the course, I am comfortable with JavaScript [JS] style guidelines, learned a lot about differences between data types and a lot of things about JS Collections.  
 
 Of course, you can read about strings, arrays, and objects at [Mozilla Developer Network documentation](https://developer.mozilla.org/en-US/) website. But at Launch School you compare the differences between collections, learn what are the methods you "need" to know by heart, importance of function scope and much more.  
 
@@ -72,11 +72,10 @@ Main lesson for me so far is that hardest thing is not to code but to decompose 
 
 ## Expectations for JS109 
 
-This Monday, I have attended the JS101-JS109 study group to practice with other student and get the general idea of the assessment. My takeaways from the study group:  
-
-I want more of these! Study groups are great to get the general idea about the upcoming assessment, level of questions, meet other students and potentially even your future examiner. 
+This Monday, I have attended the JS101-JS109 study group to practice with other students and get a general idea about the assessment. My takeaways from the study group:  
 
 <ul>
+	<li>I want more of these! Study groups are great to get the general idea about the upcoming assessment, level of questions, meet other students and potentially even your future examiner.</li>
 	<li>I still do not know a lot of things from the course. Yet, I already understand some concepts fully.</li>
 	<li>I will have to study another 80-100 hours to prepare for the assessment. It will be painful. 🤯</li>
 	<li>When I pass JS109 I will FULLY UNDERSTAND all concepts, tips, and tricks from JS101.</li>
