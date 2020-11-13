@@ -87,7 +87,44 @@ The [Internet Protocol Suite](https://en.wikipedia.org/wiki/Internet_protocol_su
 3. Internet
 4. Link
 
-The general idea of data transfer from level to level stays the same: protocol of the lower layer hides all the data it receives from the layer above within the data payload and adds some protocol specific header. The data payload and the headers form a Protocol Data Unit (PDU)
+The general idea of data transfer from level to level stays the same: protocol of the lower layer hides all the data it receives from the layer above within the data payload and adds some protocol specific header. The data payload and the headers form a Protocol Data Unit (PDU).
+
+For example, the IP layered system would look something in following lines:
+![ip-layered-system](/assets/images/layered-system-ip-model.png)
+
+
+#### Application Layer
+> - most commonly used protocol is HTTP (hypertext transfer protocol)
+> - mainly concernted with the client-server communication
+> - PDU is called an HTTP request / response
+>   - HTTP *request* is required to have:
+>     - request line: HTTP method, HTTP version, path
+>     - `Host` header 
+>     - optionally can also include other header data and message body
+>   - HTTP *response* is required to have:
+>     - response line: status code / text
+>     - response headers and message body are optional 
+
+#### Transport Layer ⬆️
+> - most commonly used protocols TCP and UDP
+> - mainly concerned with the communication between different application processes
+> - TCP's PDU is called TCP **Segment**
+>   - Headers contain source and destination socket (combination of IP address and a port number), connection status flags, etc.
+>   - Data payload contains the data from the layers above
+
+#### Internet Layer ⬆️
+> - most common uses IP protocol
+> - mainly concerns itself with inter-network communication between devices via the use of IP addressing
+> - PDU is called an IP **Packet**
+>   - Headers contain the source and destination IP addresses
+>   - Data payload contains the data from the layers above
+
+#### Link layer ⬆️
+> - most commonly uses Ethernet protocol 
+> - mainly concerns itself with local-network communication between devices via MAC (media access control) addressing
+> - PDU is called an Ethernet **Frame**
+>   - Headers contain source and destination MAC addresses
+>   - Data payload contains the data from the layers above
 
 ## Link Layer
 
@@ -162,7 +199,9 @@ How does the browser know the IP address of the website? It needs some kind of &
 
 Domain Name System (DNS) associates names like [www.google.com](http://www.google.com/) with corresponding IP addresses.
 
-Here&#39;s a cool video from Code.org explaining how the DNS works: [https://youtu.be/MwxMsaFFycg?t=250](https://youtu.be/MwxMsaFFycg?t=250)
+Here&#39;s a cool video from Code.org explaining how the DNS works:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MwxMsaFFycg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 # Transport Layer
 
