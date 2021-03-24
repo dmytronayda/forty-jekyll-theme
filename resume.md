@@ -1,10 +1,9 @@
 ---
 title: Resume
 layout: page
-description: 'My background, skills and accomplishments'
+description: 'My work background, projects, and feedback from my team-mates'
 image: assets/images/resume.jpg
 nav-menu: true
-permalink: /resume/
 ---
 
 

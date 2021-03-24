@@ -3,7 +3,7 @@ title: Dmytro Naida
 subtitle: Project Manager Games
 email: dima.nayda.1993@gmail.com
 description: Dmytro Naida is the Project Manager specialising in Game Development and IT
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.dmytronaida.com" # the base hostname & protocol for your site
 author: Dmytro Naida
 city: Salzburg
@@ -11,13 +11,13 @@ country: Austria
 phone: +43 66488340832
 
 # homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 10
 
 # social settings
 facebook_url: https://www.facebook.com/dmytro.naida
 github_url: https://github.com/dmytronayda
-linkedin_url: https://www.linkedin.com/in/dmytro-naida/
+linkedin_url: https://www.linkedin.com/in/dmytro-naida
 
 # build settings
 markdown: kramdown
