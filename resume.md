@@ -4,6 +4,7 @@ layout: page
 description: 'My background, skills and accomplishments'
 image: assets/images/resume.jpg
 nav-menu: true
+permalink: /resume/
 ---
 
 
